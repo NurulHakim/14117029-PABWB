@@ -1,0 +1,5 @@
+1. tidak ada kesalahan. perubahan yang saya lakukan yaitu menampilkan gambar. disini saya menggunakan gambar makanan.png
+2. 
+3.  	- <thead> untuk baris yang menjadi Judul tabel. <tbody> untuk data/isi dari tabel. 
+	- <tr> untuk Untuk membuat baris tabel. untuk menentukan banyaknya kolom, 
+	- <td>  untuk menentukan banyaknya kolom, tergantung dari banyaknya tag <td> (table data)  yang digunakan di dalam tag <tr>. 
