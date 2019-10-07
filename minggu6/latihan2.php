@@ -1,11 +1,11 @@
 <?php
 //KALKULATOR LATIHAN 2
 $a = 15;
-$a = 5;
+$b = 5;
 
 echo "bilangan 1 = $a"; echo "<br>";
 echo "bilangan 2 = $b"; echo "<br>";
-echo "Berikut hasil perhitungan dari setiap operator"; echo "<br";
+echo "Berikut hasil perhitungan dari setiap operator"; echo "<br>";
 
     echo "<br/> PENJUMLAHAN <br/>";
     $c = $a+$b;
@@ -28,7 +28,7 @@ echo "Berikut hasil perhitungan dari setiap operator"; echo "<br";
     echo "hasilnya : $a / $b = $f";
     echo "<br/>";
     echo "<br/> MODULUS <br/>";
-    $f = $a%$b;
+    $g = $a%$b;
     echo "operator =%"; echo "<br>";
     echo "hasilnya : $a % $b = $g";
     echo "<br/>";
