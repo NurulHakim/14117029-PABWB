@@ -15,7 +15,7 @@
         echo "Komentar : $komentar <br>";
     $sqlstr="insert into bukutamu (nama,email,komentar)
         values ('$nama','$email','$komentar')";
-    $hasil = mysqli_query($sqlstr,$conn);
+    $hasil = mysqli_query($conn, $sqlstr);
         echo "Simpan bukutamu berhasil dilakukan";
     ?>
 </BODY>
