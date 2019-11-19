@@ -35,33 +35,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </head>
 
 <body>
-    <header class="header">
-        <div class="container">
-            <nav class="navbar navbar-inverse" role="navigation">
-                <div class="navbar-header">
-                    <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a href="#" class="navbar-brand scroll-top logo"><b>Personal Website</b></a>
-                </div>
-                <!--/.navbar-header-->
-                <div id="main-nav" class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav" id="mainNav">
-                        <li class="active"><a href="#home" class="scroll-link">Home</a></li>
-                        <li><a href="#aboutUs" class="scroll-link">About Us</a></li>
-                        <li><a href="#contactUs" class="scroll-link">Contact Us</a></li>
-                    </ul>
-                </div>
-                <!--/.navbar-collapse-->
-            </nav>
-            <!--/.navbar-->
-        </div>
-        <!--/.container-->
-    </header>
-    <!--/.header-->
     <div id="#top"></div>
     <section id="home">
         <div class="banner-container">
@@ -201,43 +174,5 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </div>
         <!--/.container-->
     </section>
-    <footer>
-        <div class="container">
-            <div class="social text-center">
-                <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-dribbble"></i></a>
-                <a href="#"><i class="fa fa-flickr"></i></a>
-                <a href="#"><i class="fa fa-github"></i></a>
-            </div>
-
-            <div class="clear"></div>
-            <!--CLEAR FLOATS-->
-        </div>
-    </footer>
-    <!--/.page-section-->
-    <section class="copyright">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 text-center">
-                    Copyright 2014 | All Rights Reserved  -- Template by <a href="http://webThemez.com">WebThemez.com</a>
-                </div>
-            </div>
-            <!-- / .row -->
-        </div>
-    </section>
-    <a href="#top" class="topHome"><i class="fa fa-chevron-up fa-2x"></i></a>
-
-    <!--[if lte IE 8]><script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><![endif]-->
-    <script src="assets/js/modernizr-latest.js"></script>
-    <script src="assets/js/jquery-1.8.2.min.js" type="text/javascript"></script>
-    <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
-    <script src="assets/js/jquery.isotope.min.js" type="text/javascript"></script>
-    <script src="assets/js/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
-    <script src="assets/js/jquery.nav.js" type="text/javascript"></script>
-    <script src="assets/js/jquery.cslider.js" type="text/javascript"></script>
-    <script src="assets/js/custom.js" type="text/javascript"></script>
-    <script src="assets/js/owl-carousel/owl.carousel.js"></script>
 </body>
 </html>
-?>
